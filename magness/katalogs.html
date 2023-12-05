@@ -5,21 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ridex - Rent your favourite car</title>
+  <title>Magness - Katalogs</title>
 
-  <!-- 
-    - favicon
-  -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
@@ -28,43 +19,36 @@
 
 <body>
 
-  <!-- 
-    - #HEADER
-  -->
+  <!--HEADER-->
 
   <header class="header" data-header>
     <div class="container">
 
       <div class="overlay" data-overlay></div>
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" alt="Ridex logo">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" alt="Magness logo">
       </a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
-            <li><a href="index.html">Sākumlapa</a></li>
-            <li><a href="katalogs.html">Auto Katalogs</a></li>
-            <li><a href="parmums.html">Par Mums</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="katalogs.html">AUTO KATALOGS</a></li>
+            <li><a href="parmums.html">PAR MUMS</a></li>
+            <li><a href="kontakti.html">KONTAKTI</a></li>
           </ul>
       </nav>
 
       <div class="header-actions">
 
         <div class="header-contact">
-          <a href="tel:27678187" class="contact-link">+371 27678187</a>
-
-          <span class="contact-time">P.- Pk.8:00-21:00|S.- Sv.10:00-18:00</span>
+          <a href="tel:27678187" class="contact-link">+371 22222222</a>
+          <span class="contact-time">P.-Pk. 9:00-18:00 | S. 9:00-16:00 | Sv.-Slēgts</span>
         </div>
 
         <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
           <ion-icon name="car-outline"></ion-icon>
 
-          <span id="aria-label-txt">Explore cars</span>
+          <span id="aria-label-txt">Piedāvātās Mašīnas</span>
         </a>
-
-
 
         <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
           <span class="one"></span>
@@ -77,521 +61,88 @@
     </div>
   </header>
 
-      <!-- 
-        - #FEATURED CAR
-      -->
-
-      <section class="section featured-car" id="featured-car">
-        <div class="container">
-
-          <div class="title-wrapper">
-            <h2 class="h2 section-title">Featured cars</h2>
-
-            <a href="#" class="featured-car-link">
-              <span>View more</span>
-
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </a>
-          </div>
-
-          <ul class="featured-car-list">
-
-            <li>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
-                    class="w-100">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">Toyota RAV4</a>
-                    </h3>
-
-                    <data class="year" value="2021">2021</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 People</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Hybrid</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">6.1km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$440</strong> / month
-                    </p>
-
-
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-2.jpg" alt="BMW 3 Series 2019" loading="lazy" width="440" height="300"
-                    class="w-100">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">BMW 3 Series</a>
-                    </h3>
-
-                    <data class="year" value="2019">2019</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 People</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Gasoline</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">8.2km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$350</strong> / month
-                    </p>
-
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-3.jpg" alt="Volkswagen T-Cross 2020" loading="lazy" width="440"
-                    height="300" class="w-100">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">Volkswagen T-Cross</a>
-                    </h3>
-
-                    <data class="year" value="2020">2020</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 People</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Gasoline</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">5.3km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$400</strong> / month
-                    </p>
-
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-4.jpg" alt="Cadillac Escalade 2020" loading="lazy" width="440"
-                    height="300" class="w-100">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">Cadillac Escalade</a>
-                    </h3>
-
-                    <data class="year" value="2020">2020</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 People</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Gasoline</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">7.7km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$620</strong> / month
-                    </p>
-
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-5.jpg" alt="BMW 4 Series GTI 2021" loading="lazy" width="440"
-                    height="300" class="w-100">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">BMW 4 Series GTI</a>
-                    </h3>
-
-                    <data class="year" value="2021">2021</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 People</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Gasoline</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">7.6km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$530</strong> / month
-                    </p>
-
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-6.jpg" alt="BMW 4 Series 2019" loading="lazy" width="440" height="300"
-                    class="w-100">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">BMW 4 Series</a>
-                    </h3>
-
-                    <data class="year" value="2019">2019</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 People</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Gasoline</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">7.2km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$490</strong> / month
-                    </p>
-
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-  <footer class="footer">
+  <section class="section featured-car" id="featured-car">
     <div class="container">
 
-      <div class="footer-top">
+      <div class="title-wrapper">
+        <h2 class="h2 section-title"></h2>
 
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Ridex logo">
-          </a>
-
-          <p class="footer-text">
-            Search for cheap rental cars in New York. With a diverse fleet of 19,000 vehicles, Waydex offers its
-            consumers an
-            attractive and fun selection.
-          </p>
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Company</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Par mums</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Our blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contacts</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Support</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Help center</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Ask a question</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & conditions</a>
-          </li>
-
-        </ul>
 
 
       </div>
 
-      <div class="footer-bottom">
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-skype"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-        <p class="copyright">
-          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
-        </p>
-
-      </div>
+      <ul class="featured-car-list catalog">
+        <!-- Car items will be inserted here by JavaScript -->
+      </ul>
 
     </div>
-  </footer>
+  </section>
+
+<div class="filter-table">
+  <h3>Filtri</h3>
+  <form id="filter-form">
+    <label for="cena">Cena:</label>
+    <input type="range" id="cenaRange" name="cenaRange" min="0" max="100000">
+    <input type="number" id="cenaMin" name="cenaMin" min="0" max="100000" placeholder="Min">
+    <input type="number" id="cenaMax" name="cenaMax" min="0" max="100000" placeholder="Max">
+    </select>
+
+    <label for="marka">Marka:</label>
+    <select id="marka" name="marka">
+      <option value="">Visi</option>
+      <option value="">BMW</option>
+      <option value="">Mercedes</option>
+      <option value="">Audi</option>
+    </select>
+
+    <label for="gads">Gads:</label>
+    <select id="gads" name="gads">
+      <option value="">Visi</option>
+      <!-- JavaScript will insert option elements here -->
+    </select>
+
+    <label for="degvielasTips">Degvielas tips:</label>
+    <select id="degvielasTips" name="degvielasTips">
+      <option value="">Visi</option>
+      <option value="">Dīzelis</option>
+      <option value="">Benzīns</option>
+      <option value="">Hibrīds</option>
+      <option value="">Elektrisks</option>
+    </select>
+
+    <button type="submit">Piemērot Filtrus</button>
+    <button type="button" id="clearFilters">Notīrīt Filtrus</button>
+  </form>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="contact-info">
+        <h4>Sazinies ar mums!</h4>
+        <p>Tukums, Pasta 23</p>
+        <p>(+371) 22222222</p>
+        <p>magness@infonet.lv</p>
+      </div>
+      <div class="social-media">
+        <h4>Pieseko!</h4>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Magness. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>

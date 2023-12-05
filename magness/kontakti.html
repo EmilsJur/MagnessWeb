@@ -5,194 +5,145 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontakti - Magness</title>
+  <title>Magness - Kontakti</title>
 
-  <!-- 
-    - favicon
-  -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
     rel="stylesheet">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
 
-  <!-- 
-    - #HEADER
-  -->
-
+  <!-- HEADER -->
   <header class="header" data-header>
     <div class="container">
-
       <div class="overlay" data-overlay></div>
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" alt="Magness logo">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" alt="Magness logo">
       </a>
-
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
-            <li><a href="index.html">Auto Katalogs</a></li>
-            <li><a href="parmums.html">Par Mums</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="kontakti.html">Kontakti</a></li>
-          </ul>
+          <li><a href="katalogs.html">AUTO KATALOGS</a></li>
+          <li><a href="parmums.html">PAR MUMS</a></li>
+          <li><a href="kontakti.html">KONTAKTI</a></li>
+        </ul>
       </nav>
-
       <div class="header-actions">
-
         <div class="header-contact">
-          <a href="tel:27678187" class="contact-link">+371 27678187</a>
-
-          <span class="contact-time">P.- Pk.8:00-21:00|S.- Sv.10:00-18:00</span>
+          <a href="tel:27678187" class="contact-link">+371 22222222</a>
+          <span class="contact-time">P.-Pk. 9:00-18:00 | S. 9:00-16:00 | Sv.-Slēgts</span>
         </div>
-
-        <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+        <a href="index.html#featured-car" class="btn" aria-labelledby="aria-label-txt">
           <ion-icon name="car-outline"></ion-icon>
-
-          <span id="aria-label-txt">Explore cars</span>
+          <span id="aria-label-txt">Piedāvātās Mašīnas</span>
         </a>
-
-
-
         <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
           <span class="one"></span>
           <span class="two"></span>
           <span class="three"></span>
         </button>
-
       </div>
-
     </div>
   </header>
 
-
-  <footer class="footer">
-    <div class="container">
-
-      <div class="footer-top">
-
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Magness logo">
-          </a>
-
-          <p class="footer-text">
-            Search for cheap rental cars in New York. With a diverse fleet of 19,000 vehicles, Waydex offers its
-            consumers an
-            attractive and fun selection.
-          </p>
+  <!-- MAIN -->
+  <main>
+    <section class="contact-section">
+      <h1>Kontakti</h1>
+      <div class="tabs-container">
+        <div class="tab">
+          <h2>Email</h2>
+          <p> <a href="mailto:info@magnessauto.lv">info@magnessauto.lv</a></p>
         </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Company</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Par mums</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Our blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contacts</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Support</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Help center</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Ask a question</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & conditions</a>
-          </li>
-
-        </ul>
-
-
+        <div class="tab">
+          <h2>Telefons</h2>
+          <p><a href="tel:+37122222222">+371 2222 2222</a></p>
+        </div>
+        <div class="tab">
+          <h2>Darba laiki</h2>
+          <p></p>
+          <ul>
+            <li>Pirmdiena-Piektdiena: 9:00 - 18:00</li>
+            <li>Sestdiena: 9:00 - 16:00</li>
+            <li>Svētdiena: Slēgts</li>
+          </ul>
+        </div>
       </div>
 
+    </section>
+
+
+    <section class="centered-section">
+      <h2>Atrašanās vieta</h2>
+      <p>Mūsu auto centrs atrodas Tukumā, Pasta ielā 22.</p>
+    
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72790.16378392539!2d23.130208498078574!3d56.95313651197877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ee11d0f10db21d%3A0xa6d4074be1c1c7c8!2sTukums%2C%20Latvia!5e0!3m2!1sen!2sus!4v1577948416897!5m2!1sen!2sus"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="centered-section">
+      <h2>Sazinieties ar mums</h2>
+      <form action="submit_form.php" method="post">
+        <div class="form-group">
+          <label for="name">Vārds:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-pasts:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Ziņa:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+      </form>
+    </section>
+      <section class="contact-form-section">
+        <div class="button-container">
+          <button type="submit">Sūtīt</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="contact-info">
+          <h4>Sazinies ar mums!</h4>
+          <p>Tukums, Pasta 23</p>
+          <p>(+371) 22222222</p>
+          <p>magness@infonet.lv</p>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
       <div class="footer-bottom">
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-skype"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-        <p class="copyright">
-          &copy; All Rights Reserved. Copyright by Magness
-        </p>
-
+        <p>&copy; 2023 Magness. All rights reserved.</p>
       </div>
-
     </div>
   </footer>
-
-
-  </body>
-  </html>
+</body>
+</html>

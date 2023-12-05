@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Toyota RAV4",
+      "year": "2021",
+      "image": "./assets/images/car-1.jpg",
+      "features": [
+        {"icon": "people-outline", "text": "4 Cilvekiem"},
+        {"icon": "flash-outline", "text": "Hibrīds"},
+        {"icon": "speedometer-outline", "text": "6.1km / 1-litrs"},
+        {"icon": "hardware-chip-outline", "text": "Automāts"}
+      ],
+      "price": "$4400"
+    },
+    {
+      "name": "BMW 3 Series",
+      "year": "2019",
+      "image": "./assets/images/car-2.jpg",
+      "features": [
+        {"icon": "people-outline", "text": "4 Cilvekiem"},
+        {"icon": "flash-outline", "text": "Benzīns"},
+        {"icon": "speedometer-outline", "text": "8.2km / 1-litrs"},
+        {"icon": "hardware-chip-outline", "text": "Automāts"}
+      ],
+      "price": "$3500"
+    },
+    {
+      "name": "Volkswagen T-Cross",
+      "year": "2020",
+      "image": "./assets/images/car-3.jpg",
+      "features": [
+        {"icon": "people-outline", "text": "4 Cilvekiem"},
+        {"icon": "flash-outline", "text": "Benzīns"},
+        {"icon": "speedometer-outline", "text": "5.3km / 1-litre"},
+        {"icon": "hardware-chip-outline", "text": "Automāts"}
+      ],
+      "price": "$4000"
+    },
+    {
+      "name": "Cadillac Escalade",
+      "year": "2020",
+      "image": "./assets/images/car-4.jpg",
+      "features": [
+        {"icon": "people-outline", "text": "4 Cilvekiem"},
+        {"icon": "flash-outline", "text": "Benzīns"},
+        {"icon": "speedometer-outline", "text": "7.7km / 1-litrs"},
+        {"icon": "hardware-chip-outline", "text": "Automāts"}
+      ],
+      "price": "$6200"
+    },
+    {
+      "name": "BMW 4 Series GTI",
+      "year": "2021",
+      "image": "./assets/images/car-5.jpg",
+      "features": [
+        {"icon": "people-outline", "text": "4 Cilvekiem"},
+        {"icon": "flash-outline", "text": "Benzīns"},
+        {"icon": "speedometer-outline", "text": "7.6km / 1-litrs"},
+        {"icon": "hardware-chip-outline", "text": "Automāts"}
+      ],
+      "price": "$5300"
+    },
+    {
+      "name": "BMW 4 Series",
+      "year": "2019",
+      "image": "./assets/images/car-6.jpg",
+      "features": [
+        {"icon": "people-outline", "text": "4 Cilvekiem"},
+        {"icon": "flash-outline", "text": "Benzīns"},
+        {"icon": "speedometer-outline", "text": "7.2km / 1-litre"},
+        {"icon": "hardware-chip-outline", "text": "Automāts"}
+      ],
+      "price": "$4900"
+    }
+  ]
